@@ -1,3 +1,46 @@
+Hello everyone, and welcome to the world of food!
+
+We made this project for Restorent.
+
+In the current world, food delivery systems are common, and all people buy food online. Many food partners, like Zometo and Swiggy, do food delivery.
+
+
+
+When one restaurateur joins with multiple food delivery partners, managing the order system becomes difficult; they cannot efficiently handle the orders.
+
+
+
+So provide a solution. We make a project whose name is "Track All." It is used to manage orders and restore both of them.
+
+What is the functionality of this?
+
+1. Merge all the orders from different partners onto one plateform.
+
+2. Accept and reject orders from one platform.
+
+3. Give the inventory management
+
+4. Give a future prediction of food sales.
+
+5. Automatic Billing System
+
+Using this site, everyone can manage their food shops easily.
+
+
+
+
+
+This site was made in React JS using a framework like Bootstrap or many others.
+
+for data storage My SQL is used.
+
+all the data coming from the API.
+
+Here are some pictures of our system.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
