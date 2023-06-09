@@ -1,0 +1,34 @@
+.container {
+    margin: 100px;
+    width: 800px;
+    padding: 70px;
+    align-self: center;
+    margin-left: 450px;
+    background-color: white;
+    opacity: 0.9;
+  }
+  
+  .container-fluid {
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    filter: drop-shadow(0.60em 0.60em 0.2em);
+  }
+    
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .validateerror{
+    font-size: 20px;
+    color: red;
+  }
+  
+  .valid{
+    color: green;
+  
+  }
+  .invalid{
+  color: red;
+  }
