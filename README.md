@@ -1,3 +1,54 @@
+Hello everyone, and welcome to the world of food!
+
+We made this project for Restorent.
+
+In the current world, food delivery systems are common, and all people buy food online. Many food partners, like Zometo and Swiggy, do food delivery.
+
+
+
+When one restaurateur joins with multiple food delivery partners, managing the order system becomes difficult; they cannot efficiently handle the orders.
+
+
+
+So provide a solution. We make a project whose name is "Track All." It is used to manage orders and restore both of them.
+
+What is the functionality of this?
+
+1. Merge all the orders from different partners onto one plateform.
+
+2. Accept and reject orders from one platform.
+
+3. Give the inventory management
+
+4. Give a future prediction of food sales.
+
+5. Automatic Billing System
+
+Using this site, everyone can manage their food shops easily.
+
+
+
+
+This site was made in React JS, using a framework like Bootstrap or many others that also use Python for some backend work.
+
+for data storage My SQL is used.
+
+all the data coming from the API.
+
+For future prediction, we use Python libraries.
+
+Here are some pictures of our system.
+
+![5](https://github.com/Harsh-21-Vaghasiya/Track-all/assets/83325046/325e3898-8edf-447f-b279-50384c89b628)
+![4](https://github.com/Harsh-21-Vaghasiya/Track-all/assets/83325046/f8234d07-20cd-435e-ba07-afda90b96d3c)
+![3](https://github.com/Harsh-21-Vaghasiya/Track-all/assets/83325046/9ea67acc-22e2-4561-a582-ae2b9b58e366)
+![2](https://github.com/Harsh-21-Vaghasiya/Track-all/assets/83325046/444b98cb-4873-4063-bb2a-ccc405cfcfa8)
+![WhatsApp Image 2023-06-09 at 18 58 33](https://github.com/Harsh-21-Vaghasiya/Track-all/assets/83325046/3759aac6-d497-42e4-acc8-29dfe2e5c7d1)
+![6](https://github.com/Harsh-21-Vaghasiya/Track-all/assets/83325046/481b6339-4f3a-4936-a6c4-e5be97056016)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
