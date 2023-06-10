@@ -3,32 +3,17 @@ import React from 'react';
 import  { useEffect, useState } from "react";
 import './Pending.css';
 
-function Pending() {
+function Pending({Details}) {
 
-    const [Details, setDetails] = useState([{}]);
   const [currentPage, setcurrentPage] = useState(3);
   const [postsPerPage,setpostsPerPage] = useState(5);
-  
+  const [Pending,setpending]=useState(Details);
  
-  const FetchData = async () => {
-    let res = await fetch(
-      "https://heyq.bsite.net/api/api/getstatusproduct/1be95880-5a7f-4ff2-a28a-d3db56423854/NotAccepted",
-      {
-        mode: "cors",
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Content-Type": "application/json",
-        },
-      }
-    );
-    let data = await res.json();
-    setDetails(data);
-  };
 
-  useEffect(() => {
-    FetchData();
-  }, []);
- 
+
+  setpending(Details.filter(
+    (item) => item.marketPlaceName === "NotAccepted"
+  ))
   const lastIndex = currentPage * postsPerPage;
   const firstIndex = lastIndex - postsPerPage;
   const currentPosts = Details.slice(firstIndex, lastIndex);
@@ -60,7 +45,7 @@ if(currentPage !== 1) setcurrentPage(currentPage - 1)
             </tr>
           </thead>
           <tbody>
-            {currentPosts.map((item, index) => {
+            {pending.map((item, index) => {
               return (
                 <tr key={index}>
                   <th scope="row">{index + 1}</th>

@@ -41,16 +41,15 @@
 
 }
 
-li:hover {
+.linavbarcss:hover {
     background-color: lightgreen;
-    box-sizing: 50%;
 }
 
 .Dashboard{
     margin-left: 8px;
 }
 .Inventory{
-    margin-left: 2px;
+    margin-left: 5px;
 }
 .Resources{
     margin-left: 2px;

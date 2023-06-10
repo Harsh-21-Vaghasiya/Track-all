@@ -1,10 +1,30 @@
-import React from 'react';
+import React from "react";
+// import "./inventory.css";
+import Slider from "../Slider";
+import RawIteam from "./RawIteam";
+import Merchandise_Menu from "./Merchandise_Menu";
+import Add from './Add'
+import { useState } from "react";
 
 function Inventory() {
+  
   return (
-    <div>
-      <h1>This is Inventory</h1>
-    </div>
+    <>
+      <Slider />
+      <div
+        className="maindiv"
+        style={{
+          marginLeft: "230px",
+          height: "65rem",
+          display: " block",
+          flexDirection: "column",
+        }}
+      >
+        <RawIteam />
+        <Merchandise_Menu />
+        {/* <Add/> */}
+      </div>
+    </>
   );
 }
 
